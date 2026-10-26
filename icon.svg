@@ -1,0 +1,15 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='512' height='512'>
+  <defs>
+    <linearGradient id='haBlue' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#03A9F4'/>
+      <stop offset='100%' stop-color='#0288D1'/>
+    </linearGradient>
+    <filter id='shadow' x='-10%' y='-10%' width='130%' height='130%'>
+      <feDropShadow dx='0' dy='12' stdDeviation='16' flood-opacity='0.25' flood-color='#01579B'/>
+    </filter>
+  </defs>
+  <rect x='32' y='32' width='448' height='448' rx='108' fill='url(#haBlue)' filter='url(#shadow)'/>
+  <g transform='translate(256, 256) scale(13.2) translate(-14.355, -11.177)' fill='none' stroke='#FFFFFF' stroke-width='2.0' stroke-linecap='round' stroke-linejoin='round'>
+    <path d='m8.035.044 1.16 12.722M14.411 9.092 2.821 3.72M7.176 20.228c-2.934.527-5.25.096-6.219-1.407-1.892-2.93 2.04-8.832 8.78-13.18a31.6 31.6 0 0 1 4.47-2.415M20.675 22.31l-1.16-12.725M14.302 13.262l11.59 5.372M21.535 2.125c2.934-.527 5.25-.096 6.219 1.407 1.892 2.93-2.04 8.833-8.78 13.181a31.6 31.6 0 0 1-4.47 2.415'/>
+  </g>
+</svg>
